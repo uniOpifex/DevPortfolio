@@ -1,0 +1,83 @@
+body {
+  background: url("https://lh3.googleusercontent.com/P5E33llkbrMqL-tTpZ7ciY26Hbtn1NKopQHBD5TF0mnTSdCzoZFBD-gz-9TkQAu3YS3P4wXFwoiIM3ITsJdB=w1111-h526-rw") no-repeat center center fixed;
+  background-size: cover;
+}
+
+#profilepic {
+  width: 350px;
+}
+
+.pagemargin {
+  margin: 0px 10%;
+}
+
+.portfolio {
+  background: url("https://40.media.tumblr.com/e057411ea6131dfecb5c551dfc49a580/tumblr_o3qrqgbDY01v9xwqlo1_1280.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profilebanner {
+  background-color: #fff;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#profilepic {
+  border: 10px solid #2962ff;
+  border-radius: 500px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.cards-container .card {
+  overflow: hidden;
+  width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .cards-container {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .cards-container {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .cards-container {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+}
+.text-center {
+  text-align: center;
+}
+
+.cardrow {
+  margin-top: -200px;
+}
+
+.headertriangle {
+  margin-bottom: -6px;
+}
+
+.section2 {
+  background-color: #2962ff;
+}
